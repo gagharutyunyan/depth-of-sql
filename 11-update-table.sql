@@ -4,5 +4,5 @@
 -- ALTER TABLE employers 
 -- MODIFY COLUMN revenue FLOAT(5,2); --msql
 
--- ALTER TABLE users 
--- ALTER COLUMN name SET DATA TYPE VARCHAR(500);
+ALTER TABLE users 
+ALTER COLUMN name set NOT NULL;

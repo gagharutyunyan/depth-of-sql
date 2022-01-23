@@ -20,5 +20,7 @@
 -- );
 
 
-INSERT INTO employers (name, address, revenue)
-VALUES ('name','address',15);
+-- INSERT INTO employers (name, address, revenue)
+-- VALUES ('name','address',15);
+INSERT INTO users (name, salary)
+VALUES ('smth', 0);
