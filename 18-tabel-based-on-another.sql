@@ -1,0 +1,1 @@
+CREATE TABLE based_on_students AS SELECT * FROM students WHERE (id > 4);
