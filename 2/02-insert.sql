@@ -1,0 +1,36 @@
+-- -- -- INSERT INTO sales (
+-- -- --     customer_name, 
+-- -- --     product_name,
+-- -- --     volume,
+-- -- --     is_recurring
+-- -- --     ) 
+-- -- -- VALUES (
+-- -- --     'gag harutyunyan',
+-- -- --     'hamakargich',
+-- -- --     1500.163,
+-- -- --     TRUE
+-- -- -- );
+
+-- INSERT INTO sales (
+--     date_fulfilled,
+--     customer_name, 
+--     product_name,
+--     volume,
+--     is_recurring,
+--     is_disputed
+--     ) 
+-- VALUES (
+--     NULL,
+--     'gag harutyunyan',
+--     'hamakargich',
+--     9600.163,
+--     FALSE,
+--     TRUE
+-- ), (
+--     '2022-04-10',
+--     'gag harutyunyan',
+--     'hamakargich',
+--     9078415.0,
+--     FALSE,
+--     FALSE
+-- );

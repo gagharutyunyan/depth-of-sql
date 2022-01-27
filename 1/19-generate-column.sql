@@ -4,6 +4,6 @@
 
 -- INSERT INTO students(name, first_name, last_name) VALUES('gag', 'gagik', 'harutyunyan');
 
--- ADD COLUMN full_name VARCHAR(201) GENERATED ALWAYS AS (first_name || ' ' || last_name) STORED;
+-- INSERT INTO students(name, first_name, last_name) VALUES('gag', 'gagik2', 'harutyunyan2');
 
-INSERT INTO students(name, first_name, last_name) VALUES('gag', 'gagik2', 'harutyunyan2');
+ADD COLUMN full_name VARCHAR(201) GENERATED ALWAYS AS (first_name || ' ' || last_name) STORED;
