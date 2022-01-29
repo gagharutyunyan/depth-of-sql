@@ -5,4 +5,4 @@
 -- MODIFY COLUMN revenue FLOAT(5,2); --msql
 
 ALTER TABLE users 
-ALTER COLUMN name set NOT NULL;
+ADD COLUMN vard INT CHECK(vard >= 0 and vard is not null) DEFAULT 0;
