@@ -36,3 +36,5 @@ CREATE TABLE project_teams (
     team_id INT DEFAULT 1 REFERENCES teams ON DELETE CASCADE,
     project_id INT REFERENCES projects ON DELETE CASCADE
 );
+
+-- drop table employees, internet_accounts;
