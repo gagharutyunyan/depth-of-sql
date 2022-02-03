@@ -1,1 +1,1 @@
-drop table buildings, projects, teams, employees, internet_accounts, project_teams;
+drop table users, users_friends;
