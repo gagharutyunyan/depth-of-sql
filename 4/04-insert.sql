@@ -1,6 +1,6 @@
 INSERT INTO employees (name, superviser_id) 
 VALUES 
-('gag', NULL),
+('gag', 3),
 ('poghos', NULL),
-('arman', 3),
-('artur', 2),
+('arman', 4),
+('artur', 2);
