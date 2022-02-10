@@ -20,3 +20,6 @@
 
 
 -- INSERT INTO friends (first_name, last_name) VALUES(UPPER('gag'), 'harutyunyan');
+
+-- ALTER TABLE users
+-- add COLUMN l_name VARCHAR(201) GENERATED ALWAYS AS (first_name || ' ' || last_name) STORED;
