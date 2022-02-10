@@ -1,0 +1,3 @@
+-- SELECT FLOOR(amount_billed) as amount_billed from bookings;
+-- SELECT ROUND(amount_billed) as amount_billed from bookings;
+-- SELECT CEIL(amount_billed) as amount_billed from bookings;
