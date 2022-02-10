@@ -1,0 +1,6 @@
+-- SELECT EXTRACT(DAY FROM booking_date) from bookings; -- day
+-- SELECT EXTRACT(MONTH FROM booking_date) from bookings; -- month
+-- SELECT EXTRACT(YEAR FROM booking_date) from bookings; -- YEAR
+-- SELECT EXTRACT(DOW FROM booking_date) from bookings; -- weekday
+-- SELECT booking_date::TIMESTAMP:: DATE from bookings; -- day 2021-11-04
+-- SELECT booking_date::TIMESTAMP DATE from bookings; -- day 2021-11-04 00:00:00
