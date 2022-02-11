@@ -1,0 +1,1 @@
+SELECT time1 - time2 FROM some_table; -- returns {"hours": 1, "minutes": 5, "seconds": 54} this is data type INTERVAL
